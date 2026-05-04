@@ -2,7 +2,6 @@ import os
 
 import pandas as pd
 import requests
-from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 
 
@@ -21,7 +20,6 @@ def run_pipeline():
         df["ath_date"] = pd.to_datetime(df["ath_date"])
 
     # 3. Connection (Using GitHub Secrets)
-    load_dotenv()
     db_url = os.environ.get("DB_URL")
     if not db_url:
         print("Error: DB_URL environment variable not found.")
