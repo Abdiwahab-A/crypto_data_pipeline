@@ -22,4 +22,4 @@ jobs:
       - name: Execute Script
         env:
           DB_URL: ${{ secrets.DB_URL }}
-        run: python crypto_update.py
+        run: python crypto.py
