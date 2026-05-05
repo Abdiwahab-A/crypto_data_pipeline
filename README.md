@@ -15,7 +15,7 @@ An automated end-to-end data engineering project that extracts crypto data, clea
 
 ## 📊 Dashboard Preview
 ![Dashboard Screenshot](dashboards/screenshot.png) 
-*(Tip: Take a screenshot of your Power BI and put it here!)*
+![alt text](image.png)
 
 ## 🚀 Setup Instructions
 1. Clone this repo.
